@@ -8,5 +8,13 @@ public class Main {
                 .brand("Porshe")
                 .build();
         System.out.println(car.toString());
+
+        Person person= new Person.PersonBuilder()
+                .surName("Kowalski")
+                .name("Adam")
+                .country("Poland")
+                .age(24)
+                .build();
+        System.out.println(person.toString());
     }
 }
