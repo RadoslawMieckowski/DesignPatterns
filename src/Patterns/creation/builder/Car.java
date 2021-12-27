@@ -48,6 +48,8 @@ public class Car {
     public String toString() {
         return "Car{" +
                 "color='" + color + '\'' +
+                ", age=" + age +
+                ", brand='" + brand + '\'' +
                 '}';
     }
 }
