@@ -1,4 +1,9 @@
-package Patterns.creation.builder.dinner;
+package Patterns.creation.builder.dinner.menu;
+
+import Patterns.creation.builder.dinner.DinnerBuilder;
+import Patterns.creation.builder.dinner.models.Dinner;
+import Patterns.creation.builder.dinner.models.MainCourse;
+import Patterns.creation.builder.dinner.models.Soup;
 
 public class PolishDinner implements DinnerBuilder {
     private Dinner dinner;

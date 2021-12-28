@@ -1,5 +1,7 @@
 package Patterns.creation.builder.dinner;
 
+import Patterns.creation.builder.dinner.models.Dinner;
+
 public class DinnerDirector {
     private DinnerBuilder dinnerBuilder;
     public DinnerDirector(DinnerBuilder dinnerBuilder) {

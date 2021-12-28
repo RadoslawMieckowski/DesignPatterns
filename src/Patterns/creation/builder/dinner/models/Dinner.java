@@ -1,4 +1,4 @@
-package Patterns.creation.builder.dinner;
+package Patterns.creation.builder.dinner.models;
 
 public class Dinner {
     private Soup soup;
