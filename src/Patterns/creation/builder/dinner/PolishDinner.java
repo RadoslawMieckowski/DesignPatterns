@@ -17,7 +17,7 @@ public class PolishDinner implements DinnerBuilder {
     @Override
     public void serveMainCourse() {
         MainCourse mainCourse=new MainCourse();
-        mainCourse.setName("Kaczka z jabłkaki");
+        mainCourse.setName("Kaczka z jabłkami");
         dinner.setMainCourse(mainCourse);
     }
 
@@ -26,3 +26,4 @@ public class PolishDinner implements DinnerBuilder {
         return dinner;
     }
 }
+

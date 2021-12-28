@@ -10,4 +10,11 @@ public class MainCourse {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "MainCourse{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }

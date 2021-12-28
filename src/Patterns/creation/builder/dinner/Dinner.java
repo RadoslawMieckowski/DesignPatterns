@@ -19,4 +19,12 @@ public class Dinner {
     public void setMainCourse(MainCourse mainCourse) {
         this.mainCourse = mainCourse;
     }
+
+    @Override
+    public String toString() {
+        return "Dinner{" +
+                "soup=" + soup +
+                ", mainCourse=" + mainCourse +
+                '}';
+    }
 }

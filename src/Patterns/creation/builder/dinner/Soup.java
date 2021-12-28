@@ -10,4 +10,11 @@ public class Soup {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "Soup{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
