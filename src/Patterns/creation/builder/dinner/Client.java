@@ -13,6 +13,12 @@ public class Client {
         frenchDinnerDirector.makeDinner();
         Dinner frenchDinner=frenchDinnerDirector.getDinner();
         System.out.println(frenchDinner);
+
+        DinnerBuilder italianDinnerBuilder=new ItalianDinner();
+        DinnerDirector italianDinnerDirector=new DinnerDirector(italianDinnerBuilder);
+        italianDinnerDirector.makeDinner();
+        Dinner italianDinner= italianDinnerDirector.getDinner();
+        System.out.println(italianDinner);
     }
 
 }
