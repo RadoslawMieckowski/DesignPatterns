@@ -1,6 +1,6 @@
-package Patterns.creation.builder.dinner.models;
+package Patterns.creation.builders.classic.dinner.models;
 
-public class MainCourse {
+public class Soup {
     private String name;
 
     public String getName() {
@@ -13,7 +13,7 @@ public class MainCourse {
 
     @Override
     public String toString() {
-        return "MainCourse{" +
+        return "Soup{" +
                 "name='" + name + '\'' +
                 '}';
     }

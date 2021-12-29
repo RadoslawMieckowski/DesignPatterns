@@ -1,6 +1,6 @@
-package Patterns.creation.builder.dinner;
+package Patterns.creation.builders.classic.dinner;
 
-import Patterns.creation.builder.dinner.models.Dinner;
+import Patterns.creation.builders.classic.dinner.models.Dinner;
 
 public interface DinnerBuilder {
 

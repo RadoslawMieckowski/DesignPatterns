@@ -1,9 +1,9 @@
-package Patterns.creation.builder.dinner;
+package Patterns.creation.builders.classic.dinner;
 
-import Patterns.creation.builder.dinner.menu.FrenchDinner;
-import Patterns.creation.builder.dinner.menu.ItalianDinner;
-import Patterns.creation.builder.dinner.menu.PolishDinner;
-import Patterns.creation.builder.dinner.models.Dinner;
+import Patterns.creation.builders.classic.dinner.menu.FrenchDinner;
+import Patterns.creation.builders.classic.dinner.menu.ItalianDinner;
+import Patterns.creation.builders.classic.dinner.menu.PolishDinner;
+import Patterns.creation.builders.classic.dinner.models.Dinner;
 
 public class Client {
     public static void main(String[] args) {
